@@ -33,8 +33,6 @@ const SECTIONS = [
     { q: 'Do czego jest potrzebne drzewo genealogiczne?', tag: 'lista',
       a: 'Porządkuje wiadomości o rodzinie i łączy jej członków, bo pokazuje wspólną historię.',
       more: 'Łatwiej znaleźć informacje, np. o praprababci, i nie pomylić jej z inną osobą o tym samym imieniu i nazwisku.' },
-    { q: 'Ilu masz dziadków, a ilu pradziadków?', a: 'Dziadków czworo, pradziadków ośmioro.', more: 'Rodziców masz dwoje.',
-      zle: ['Dziadków dwoje, pradziadków czworo.', 'Dziadków czworo, pradziadków sześcioro.'] },
   ] },
   { id: '6.1', name: 'Moja mała ojczyzna', cards: [
     { q: 'Co to jest ojczyzna?', t: 'Ojczyzna', a: 'Kraj, w którym żyjemy – dla nas to Polska.' },

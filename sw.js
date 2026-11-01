@@ -1,6 +1,6 @@
 // Offline: odpowiedź z pamięci podręcznej, w tle pobranie świeżej wersji.
 // Po zmianie plików podbij wersję, żeby stara pamięć się wyczyściła.
-const CACHE = 'historia-v2';
+const CACHE = 'historia-v3';
 const ASSETS = ['./', './index.html', './data.js', './app.js', './style.css', './manifest.webmanifest',
   './icon.svg', './icon-180.png', './icon-192.png', './icon-512.png'];
 
