@@ -76,7 +76,7 @@ function load() {
   const all = SECTIONS.map(x => x.id);
   if (!s) return { selected: all, settings: { ...DEFAULT_SETTINGS }, stats: {}, activity: {} };
   return {
-    selected: Array.isArray(s.selected) ? s.selected.filter(id => all.includes(id)) : all,
+    selected: all, // po każdym otwarciu wszystkie tematy są zaznaczone
     settings: { ...DEFAULT_SETTINGS, ...(s.settings || {}) },
     stats: s.stats || {},
     activity: s.activity || {},
