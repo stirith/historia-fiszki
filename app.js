@@ -15,8 +15,9 @@ const MASTERED_AFTER = 2;
 
 // ---------- dane ----------
 
-const CARDS = SECTIONS.flatMap(s => s.cards.map((c, i) => ({
-  ...c, id: `${s.id}-${i + 1}`, sec: s.id, ch: s.id.split('.')[0],
+// Postępy są przypięte do treści pytania, więc dopisanie albo usunięcie pytania ich nie przesuwa.
+const CARDS = SECTIONS.flatMap(s => s.cards.map(c => ({
+  ...c, id: c.q, sec: s.id, ch: s.id.split('.')[0],
 })));
 
 function shuffle(arr) {
